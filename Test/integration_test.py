@@ -17,6 +17,5 @@ def test_leap_years():
 
 def test_non_leap_years():
     assert not (functions.is_leap_year(2021))
-    assert not(functions.is_leap_year(1900))
+    assert not (functions.is_leap_year(1900))
     assert not (functions.is_leap_year(2000))
-
